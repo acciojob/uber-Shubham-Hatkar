@@ -49,9 +49,9 @@ public class DriverServiceImpl implements DriverService {
 		List<TripBooking> tripBookingList = driver.getTripBookingList();
 		for(TripBooking tripBooking : tripBookingList)
 		{
-			if(tripBooking.getTripStatus() == TripStatus.COMPLETED)
+			if(tripBooking.getStatus() == TripStatus.COMPLETED)
 			{
-				tripBooking.setTripStatus(TripStatus.CANCELED);
+				tripBooking.setStatus(TripStatus.CANCELED);
 			}
 		}
 

@@ -39,12 +39,12 @@ public class Customer
         return this.tripBookingList;
     }
 
-    public int getId() {
+    public int getCustomerId() {
         return customerId;
     }
 
-    public void setId(int id) {
-        this.customerId = id;
+    public void setCustomerId(int customerId) {
+        this.customerId = customerId;
     }
 
     public String getPassword() {
@@ -61,5 +61,9 @@ public class Customer
 
     public void setMobile(String mobile) {
         this.mobile = mobile;
+    }
+
+    public void setTripBookingList(List<TripBooking> tripBookingList) {
+        this.tripBookingList = tripBookingList;
     }
 }

@@ -47,11 +47,11 @@ public class Admin
         this.username = username;
     }
 
-    public String getAdminPassword() {
+    public String getPassword() {
         return adminPassword;
     }
 
-    public void setAdminPassword(String adminPassword) {
+    public void setPassword(String adminPassword) {
         this.adminPassword = adminPassword;
     }
 }
